@@ -1,4 +1,3 @@
-import SimpleButton from "@/components/base/simpleBtn";
 import MenuNavigation from "../menuItems";
 import Logo from "../logo";
 
@@ -8,7 +7,6 @@ const Header = () => {
         <header className="bg-blue-600 text-white shadow-lg h-24 hidden md:flex">
             <Logo />
             <MenuNavigation />
-            <SimpleButton color={"E5412E"}>Log Out</SimpleButton>
         </header>
     );
 };

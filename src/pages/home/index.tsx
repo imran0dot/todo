@@ -1,7 +1,9 @@
+import FormAdd from "@/components/base/Form";
+
 const HomePage = () => {
     return (
         <div>
-            <p>THis is the home page</p>
+            <FormAdd />
         </div>
     );
 };

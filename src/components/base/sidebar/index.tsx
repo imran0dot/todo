@@ -6,6 +6,10 @@ const Sidebar = () => {
             "name": "Home",
             "path": "/"
         },
+        {
+            "name": "List",
+            "path": "/list"
+        }
     ]
     return (
             <div className="bg-gray-100">
