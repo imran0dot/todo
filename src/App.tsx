@@ -1,13 +1,20 @@
 import './App.css'
 import Header from '@/components/shared/header'
-import Todo from './components/base/todo'
+import { Outlet } from "react-router-dom"
+import Sidebar from './components/base/sidebar'
+
 
 const App = () => {
 
   return (
     <>
       <Header />
-      <Todo />
+      <div className='flex'>
+        <Sidebar />
+        <div className='p-5'>
+          <Outlet />
+        </div>
+      </div>
     </>
   )
 }

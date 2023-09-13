@@ -1,6 +1,6 @@
 import NavMenu from "./navMenu";
 
-const Todo = () => {
+const Sidebar = () => {
     const menuItems = [
         {
             "name": "Home",
@@ -8,8 +8,7 @@ const Todo = () => {
         },
     ]
     return (
-        <div>
-            <body className="bg-gray-100">
+            <div className="bg-gray-100">
 
                 <aside className="bg-gray-800 text-white w-64 min-h-screen p-4">
                     <nav>
@@ -20,9 +19,8 @@ const Todo = () => {
                         </ul>
                     </nav>
                 </aside>
-            </body>
-        </div>
+            </div>
     );
 };
 
-export default Todo;
+export default Sidebar;
