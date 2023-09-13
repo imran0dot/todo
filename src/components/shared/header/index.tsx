@@ -8,7 +8,7 @@ const Header = () => {
         <header className="bg-blue-600 text-white shadow-lg h-24 hidden md:flex">
             <Logo />
             <MenuNavigation />
-            <SimpleButton color={"E5412E"}>Contact Me</SimpleButton>
+            <SimpleButton color={"E5412E"}>Log Out</SimpleButton>
         </header>
     );
 };
